@@ -17,12 +17,9 @@ a {
   position: fixed;
 }
 
-.navbar__container-links:hover{
-  color:#d8d8d8;
+.navbar__container-links:hover {
+  color: #d8d8d8;
 }
-
-
-
 
 .navbar__header {
   display: flex;
@@ -493,7 +490,7 @@ a {
     "Arial", sans-serif;
 }
 
-.pie__pagina{
+.pie__pagina {
   height: 201px;
   padding: 17px 22px 19px 22px;
   background-color: #f5f5f7;
@@ -503,48 +500,46 @@ a {
   font-weight: 400;
   letter-spacing: 0.1em;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-  "Arial", sans-serif;
-  
+    "Arial", sans-serif;
 }
 
-.pie__pagina__Inf{
+.pie__pagina__Inf {
   margin-bottom: 7px;
-    padding-bottom: 8px;
-    
+  padding-bottom: 8px;
 }
 
-
-.pie__pagina__num, .pie__pagina__local, .pie__pagina__legal, .pie__pagina__links{
+.pie__pagina__num,
+.pie__pagina__local,
+.pie__pagina__legal,
+.pie__pagina__links {
   font-size: 1em;
   line-height: 1.33337;
-    font-weight: 400;
-    letter-spacing: -.01em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
-.pie__pagina__local{
-  padding-top:5px ;
+.pie__pagina__local {
+  padding-top: 5px;
   margin-top: 5px;
 }
-.pie__pagina__legal{
-  padding-top: 12px; ;
+.pie__pagina__legal {
+  padding-top: 12px;
 }
 
-.pie__pagina__link{
+.pie__pagina__link {
   display: inline-block;
   border-right: 1px solid #d2d2d7;
   color: #424245;
   margin-right: 7px;
-    padding-right: 10px;
-    margin-top: 5px;
+  padding-right: 10px;
+  margin-top: 5px;
 }
-
-
 
 @media (min-width: 768px) {
-.box1{
-  height: 580px;
-  padding: 57px 0px;
-}
+  .box1 {
+    height: 580px;
+    padding: 57px 0px;
+  }
 
   .box1__content {
     padding-top: 35px;
@@ -554,8 +549,7 @@ a {
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
-    letter-spacing: -.005em;
-    
+    letter-spacing: -0.005em;
   }
 
   .box1__content h3 {
@@ -563,12 +557,12 @@ a {
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
-    letter-spacing: .004em;
+    letter-spacing: 0.004em;
   }
 
   .box2 {
     background-image: url(https://www.apple.com/v/home/ak/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium_2x.jpg);
-  height: 624px;
+    height: 624px;
   }
 
   .box2__content {
@@ -580,19 +574,19 @@ a {
     font-size: 56px;
     line-height: 1.07143;
     font-weight: 600;
-    letter-spacing: -.005em;
+    letter-spacing: -0.005em;
   }
 
   .box2__content h3 {
     font-size: 28px;
     line-height: 1.10722;
     font-weight: 400;
-    letter-spacing: .004em;
+    letter-spacing: 0.004em;
   }
 
   .box3 {
     background-image: url(https://www.apple.com/v/home/ak/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg);
-  height: 624px;
+    height: 624px;
   }
 
   .box3__content h2 {
@@ -622,46 +616,52 @@ a {
     margin-top: 0.7em;
   }
 
-  .boximg1 h5, .boximg2 h5, .boximg3 h5, .boximg4 h5, .boximg5 h5, .boximg6 h5{
+  .boximg1 h5,
+  .boximg2 h5,
+  .boximg3 h5,
+  .boximg4 h5,
+  .boximg5 h5,
+  .boximg6 h5 {
     font-size: 21px;
     line-height: 1.2381;
     font-weight: 400;
-    letter-spacing: .016em;
+    letter-spacing: 0.016em;
   }
 
-  .parrafo-nuevo{
+  .parrafo-nuevo {
     font-size: 19px;
   }
 
-  .boximg2 h4, .boximg4 h4{
+  .boximg2 h4,
+  .boximg4 h4 {
     font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: 0em;
   }
 
-  .boximg4 h4{
+  .boximg4 h4 {
     margin-top: 30px;
   }
 
-  .boximg2 h4{
+  .boximg2 h4 {
     max-width: 321px;
   }
 
-  .pie__pagina{
-  padding-left: 120px;
-  padding-right:120px;
-  
+  .pie__pagina {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
-  .pie__pagina__Inf, .pie__pagina__num{
+  .pie__pagina__Inf,
+  .pie__pagina__num {
     display: inline-block;
   }
- .pie__pagina__Inf{
-  border-bottom: 1px solid #d2d2d7;
- }
- 
- .pie__pagina__local{
-   float: right;
- }
+  .pie__pagina__Inf {
+    border-bottom: 1px solid #d2d2d7;
+  }
+
+  .pie__pagina__local {
+    float: right;
+  }
 }
